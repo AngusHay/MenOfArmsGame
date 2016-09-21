@@ -101,7 +101,7 @@ public class MenOfArms {
 		player.reset();
 		opponent.reset();
 		
-		ActionOptionDeck bleh = new ActionOptionDeck(player);	// So that Java remembers to freakin' compile ActionOptionDeck.java, seriously Java what is wrong with you
+		ActionOptionDeck bleh = new ActionOptionDeck(player);	// Kludge to force Java to compile ActionOptionDeck to save myself time
 		
 		while(player.isAlive() && opponent.isAlive()) {
 			try {
