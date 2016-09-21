@@ -1,0 +1,20 @@
+INSTRUCTIONS
+
+The game runs in a command window. Compile and run MenOfArms.java, then follow the on-screen instructions to play.
+
+THE RULES:
+
+- You are a knight, come to match wits with other knights in duels to the death.
+- In a duel, each player is dealt a certain number of 'cards' from a 'deck'. Each card represents an attack or a defensive move. The number of cards you get is based on your character's Cunning skill; more Cunning means more options and more chances to outplay your opponent.
+- Before each turn, the game randomly determines which character gets the initiative this turn. The character with a higher Speed skill is more likely to get the initiative.
+- Then, you choose which of your 'cards' you want your character to use. Chop, Thrust, and Slash are attacks, while Block and Parry are defensive.
+- Once you've chosen your card, the results of the turn are calculated, and the next turn begins - provided that both duelists survive that long.
+
+Strategy:
+- Attacks can deal damage, while defensive cards only protect from damage. However, if both duelists try to attack, only the duelist who has the initiative gets to deal damage - the other one was too slow and got interrupted before they could strike. Therefore, if you don't have the initiative, it's a good idea to defend - unless you think that your opponent has run out of attack cards.
+- If one duelist defends and manages to block all the damage from their enemy's attack, the enemy is stunned and the defender is guaranteed to have the initiative during the next turn - a perfect chance to strike back.
+- If both duelists try to defend, nothing happens and they each draw a new card.
+- The Chop and Block cards scale in power with your Strength, while Thrust and Parry become more effective if you have more Finesse. Slash deals damage based on the average of your Strength and Finesse - and if they're equal, is a bit stronger than either Chop or Thrust.
+
+Notes:
+ - I haven't bothered to remove all of the debug information, so you can see what cards your opponent has, among other things. This makes the game a bit easier than was intended.
